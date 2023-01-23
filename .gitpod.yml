@@ -1,12 +1,13 @@
 image:
   file: .gitpod.Dockerfile
-#tasks:
-#  - name: Strapi
-#    init: >
-#      cd /workspace/elemental-bromine/api &&
-#      yarn install &&
-#      gp sync-done strapi
-#    command: yarn develop
+tasks:
+  - name: Strapi
+    init: >
+      cd /workspace/elemental-bromine/api &&
+      yarn install &&
+      yarn build &&
+      gp sync-done strapi
+    command: yarn start
 #  - name: Vue.js
 #    init: |
 #      cd /workspace/elemental-bromine/client &&
