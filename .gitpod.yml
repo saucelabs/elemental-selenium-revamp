@@ -5,9 +5,8 @@ tasks:
     init: >
       cd /workspace/elemental-bromine/api &&
       yarn install &&
-      yarn build &&
       gp sync-done strapi
-    command: yarn start
+    command: yarn develop
 #  - name: Vue.js
 #    init: |
 #      cd /workspace/elemental-bromine/client &&
