@@ -1,0 +1,22 @@
+image:
+  file: .gitpod.Dockerfile
+tasks:
+  - name: Strapi
+    init: >
+      cd /workspace/elemental-bromine/api &&
+      yarn install &&
+      gp sync-done strapi
+    command: yarn develop
+#  - name: Vue.js
+#    init: |
+#      cd /workspace/elemental-bromine/client &&
+#      gp sync-await strapi
+#      yarn install
+#    command: yarn dev
+ports:
+  - port: 1337
+    onOpen: open-browser
+    visibility: public
+  - port: 5173
+    onOpen: open-browser
+    visibility: public
