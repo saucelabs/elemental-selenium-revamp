@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkelemental_bromine=self.webpackChunkelemental_bromine||[]).push([[3205],{4863:e=>{e.exports=JSON.parse('{"label":"docusaurus","permalink":"/blog/tags/docusaurus","allTagsPath":"/blog/tags","count":4}')}}]);

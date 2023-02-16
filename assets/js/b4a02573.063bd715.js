@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkelemental_bromine=self.webpackChunkelemental_bromine||[]).push([[1124],{5745:e=>{e.exports=JSON.parse('{"name":"docusaurus-plugin-content-pages","id":"default"}')}}]);

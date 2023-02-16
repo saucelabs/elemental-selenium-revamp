@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkelemental_bromine=self.webpackChunkelemental_bromine||[]).push([[4121],{8070:e=>{e.exports=JSON.parse('[{"label":"file","permalink":"/docs/tags/file","count":1},{"label":"upload","permalink":"/docs/tags/upload","count":1},{"label":"file upload","permalink":"/docs/tags/file-upload","count":1}]')}}]);
