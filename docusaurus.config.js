@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  title: 'Elemental Bromine',
+  tagline: 'The Place for Tips',
+  favicon: 'img/ES.ico',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-test-site.com',
@@ -64,17 +64,17 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Elemental Bromine',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Elemental Bromine Logo',
+          src: 'img/ES.svg',
         },
         items: [
           {
-            type: 'doc',
+            type: 'docs',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'tutorial',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -127,7 +127,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Elemental Bromine, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
